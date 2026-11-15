@@ -20,3 +20,8 @@ variable "alert_email" {
   description = "Where GuardDuty alerts are sent."
   type        = string
 }
+
+variable "project" {
+  type    = string
+  default = "security-monitoring"
+}
